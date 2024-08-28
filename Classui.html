@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Classroom UI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="profile">
+                <img src="img/boy.png" alt="Donald" class="profile-img">
+                <p class="profile-name">Donald</p>
+                <p class="profile-role">Student</p>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Assignment</a></li>
+                    <li><a href="#">Calender</a></li>
+                    <li><a href="#">Flash Card</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="main-content">
+            <header>
+                <h1>Classroom</h1>
+                <nav class="top-nav">
+                    <a href="#">Courses</a>
+                    <a href="#">Grades</a>
+                </nav>
+            </header>
+            <section class="class">
+                <div class="class-card">
+                    <h2>Web Programming Class</h2>
+                    <p>Teached by Ms.Rena</p>
+                </div>
+            </section>
+            <section class="courses">
+                <div class="course-card">
+                    <h2>HTML</h2>
+                    <p>Web Development Fundamentals</p>
+                </div>
+                <div class="course-card">
+                    <h2>CSS</h2>
+                    <p>Web Development Fundamentals</p>
+                </div>
+                <div class="course-card">
+                    <h2>Java Script</h2>
+                    <p>Web Development Fundamentals</p>
+                </div>
+            </section>
+            <section class="grades-section">
+                <table class="grades-table">
+                    <thead>
+                        <tr>
+                            <th>Assignment</th>
+                            <th>Date</th>
+                            <th>Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Assignment 1</td>
+                            <td>2024-03-15</td>
+                            <td>92/100</td>
+                        </tr>
+                        <tr>
+                            <td>Assignment 2</td>
+                            <td>2024-03-25</td>
+                            <td>0/100</td>
+                        </tr>
+                        <tr>
+                            <td>Mid Exam</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section class="assignments-section">
+                <table class="assignments-table">
+                    <thead>
+                        <tr>
+                            <th>Assignment</th>
+                            <th>Due Date</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <strong>Assignment 1</strong>
+                                <p>Introduction to HTML, CSS</p>
+                            </td>
+                            <td>2024-03-17</td>
+                            <td><span class="status submitted">Submitted</span></td>
+                            <td><button class="view-button">View</button></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <strong>Assignment 2</strong>
+                                <p>Introduction to Java Script</p>
+                            </td>
+                            <td>2024-03-25</td>
+                            <td><span class="status not-submitted">Not Submitted</span></td>
+                            <td><button class="view-button">View</button></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <strong>Mid Exam</strong>
+                                <p>Making simple web</p>
+                            </td>
+                            <td>2023-06-10</td>
+                            <td><span class="status not-started">Not Started</span></td>
+                            <td><button class="view-button">View</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>            
+        </main>
+    </div>
+</body>
+</html>
