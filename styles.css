@@ -15,15 +15,15 @@ body {
 }
 
 .sidebar {
-  position: fixed; /* Make the sidebar fixed */
-  top: 80px; /* Position it below the header */
+  position: fixed; 
+  top: 80px; 
   left: 0;
   width: 200px;
-  height: calc(100vh - 80px); /* Full height minus header height */
+  height: calc(100vh - 80px); 
   background-color: #f8f9fa;
   padding: 20px;
   border-right: 1px solid #ddd;
-  overflow-y: auto; /* Add scroll if content exceeds height */
+  overflow-y: auto; 
 }
 
 .profile {
@@ -73,9 +73,9 @@ body {
 
 
 .main-content {
-  margin-left: 200px; /* Margin to accommodate the sidebar */
+  margin-left: 200px; 
   padding: 20px;
-  padding-top: 100px; /* Add space for the fixed header */
+  padding-top: 100px; 
 }
 
 header {
@@ -97,7 +97,7 @@ header {
   text-decoration: none;
   color: #333;
   font-weight: bold;
-  padding-bottom: 5px; /* Space for underline */
+  padding-bottom: 5px; 
   position: relative;
 }
 
@@ -138,7 +138,7 @@ header {
   margin-top: 25px;
 }
 
-/*  grades */ 
+
 .grades-section {
   margin-top: 40px;
 }
